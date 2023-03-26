@@ -1,0 +1,90 @@
+.traffic-light {
+    width: 60px;
+    height: 270px;
+    background-color: #333;
+    border-radius: 10px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.red-light,
+.yellow-light,
+.green-light,
+.green-right {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px auto;
+    position: absolute;
+    left: 5px;
+    right: 5px;
+}
+
+.red-light {
+    background-color: red;
+    top: 10px;
+}
+
+.yellow-light {
+    background-color: yellow;
+    top: 70px;
+}
+
+.green-light {
+    background-color: rgb(5, 255, 5);
+    top: 130px;
+}
+
+.green-right {
+    background-color: rgb(5, 255, 5);
+    top: 190px;
+
+}
+
+.on .red-light,
+.ready .red-light,
+.on .yellow-light,
+.off .yellow-light,
+.off .green-light,
+.ready .green-light,
+.off .green-right,
+.ready .green-right {
+    opacity: 0.2;
+}
+
+.first,
+.second,
+.third,
+.fourth {
+    width: 100%;
+    height: 300px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.container>div {
+    flex: 50%;
+    /* or - flex: 0 50% - or - flex-basis: 50% - */
+    /*demo*/
+    box-shadow: 0 0 0 0 black;
+    margin-bottom: 10px;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin: 30%;
+    width: 10px;
+    height: 10px;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
