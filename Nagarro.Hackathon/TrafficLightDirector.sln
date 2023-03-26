@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrafficLightDirector.Host", "TrafficLightDirector.Host\TrafficLightDirector.Host.csproj", "{C5CDB5B8-8D93-4B08-B102-CD9F304BEB36}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrafficLightDirector.Infrastrucure", "TrafficLightDirector.Infrastrucure\TrafficLightDirector.Infrastrucure.csproj", "{8376AA40-0003-43CB-8610-85897566D985}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Application", "1.Application", "{FFE00553-F593-40E0-B730-0573314FFC7C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Infrastrucure", "3.Infrastrucure", "{0FAE6F4C-17ED-4648-B587-6996D904E0DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrafficLightDirector.Domain", "TrafficLightDirector.Domain\TrafficLightDirector.Domain.csproj", "{1D14C0BA-9D3F-4C1A-82B8-CCF918E2F34F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Domain", "2.Domain", "{EF9F597F-B09C-41DD-871B-77D0A898C8BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5CDB5B8-8D93-4B08-B102-CD9F304BEB36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5CDB5B8-8D93-4B08-B102-CD9F304BEB36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5CDB5B8-8D93-4B08-B102-CD9F304BEB36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5CDB5B8-8D93-4B08-B102-CD9F304BEB36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8376AA40-0003-43CB-8610-85897566D985}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8376AA40-0003-43CB-8610-85897566D985}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8376AA40-0003-43CB-8610-85897566D985}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8376AA40-0003-43CB-8610-85897566D985}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D14C0BA-9D3F-4C1A-82B8-CCF918E2F34F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D14C0BA-9D3F-4C1A-82B8-CCF918E2F34F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D14C0BA-9D3F-4C1A-82B8-CCF918E2F34F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D14C0BA-9D3F-4C1A-82B8-CCF918E2F34F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C5CDB5B8-8D93-4B08-B102-CD9F304BEB36} = {FFE00553-F593-40E0-B730-0573314FFC7C}
+		{8376AA40-0003-43CB-8610-85897566D985} = {0FAE6F4C-17ED-4648-B587-6996D904E0DB}
+		{1D14C0BA-9D3F-4C1A-82B8-CCF918E2F34F} = {EF9F597F-B09C-41DD-871B-77D0A898C8BB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8642FE42-7036-4DD2-8021-14A507902BD8}
+	EndGlobalSection
+EndGlobal
