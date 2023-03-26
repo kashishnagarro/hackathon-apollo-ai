@@ -1,4 +1,4 @@
-﻿namespace Nagarro.Hackathon.TrafficManagerFunction
+﻿namespace TrafficLightDirector.Domain.Enum
 {
     public enum LightState
     {

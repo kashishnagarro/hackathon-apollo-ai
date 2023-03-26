@@ -1,6 +1,9 @@
-﻿namespace Nagarro.Hackathon.TrafficManagerFunction
+﻿namespace TrafficLightDirector.Domain.Model
 {
-    public class CommonValues
+    using TrafficLightDirector.Domain.Enum;
+
+
+    public class TrafficSignal
     {
         public static TrafficLightSide CurrentDirection = TrafficLightSide.First;
         public static DateTime LightChangedAt = DateTime.Now;
@@ -11,23 +14,24 @@
         {
             new State
             {
-                Side= TrafficLightSide.First,
-                LightState = LightState.Go
+                TrafficLightId= TrafficLightSide.First,
+                CurrentState = LightState.Go,
+                LiveFeed=""
             },
             new State
             {
-                Side= TrafficLightSide.Second,
-                LightState = LightState.Stop
+                TrafficLightId= TrafficLightSide.Second,
+                CurrentState = LightState.Stop
             },
             new State
             {
-                Side= TrafficLightSide.Third,
-                LightState = LightState.Stop
+                TrafficLightId= TrafficLightSide.Third,
+                CurrentState = LightState.Stop
             },
             new State
             {
-                Side= TrafficLightSide.Fourth,
-                LightState = LightState.Stop
+                TrafficLightId= TrafficLightSide.Fourth,
+                CurrentState = LightState.Stop
             }
         };
     }
