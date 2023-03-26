@@ -8,8 +8,6 @@ namespace TrafficLightDirector.Host.Controllers
     [Route("[controller]")]
     public class TrafficController : ControllerBase
     {
-
-
         private readonly ILogger<TrafficController> _logger;
         private readonly ITrafficLight trafficLight;
 
